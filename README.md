@@ -81,4 +81,4 @@
 
 ##  授權條款 (License)
 本專案採用 **MIT 授權條款 (MIT License)**。
-![LICENSE](./LICENSE)
+[LICENSE](./LICENSE)
