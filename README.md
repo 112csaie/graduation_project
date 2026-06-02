@@ -121,6 +121,11 @@
 
 ---
 
+##  簡報及相關文件
+口頭報告之專題簡報與其相關文件存放於[docs](./docs)資料夾中
+
+---
+
 ##  授權條款 (License)
 本專案採用 **MIT 授權條款 (MIT License)**。
 [LICENSE](./LICENSE)
