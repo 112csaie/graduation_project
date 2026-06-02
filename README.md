@@ -24,7 +24,7 @@
 
 ## 🛠️ 實作方法與架構 (Method & Architecture)
 本系統採用**四層式模組化架構**設計，將前端用戶介面與底層 AI 推論及資料庫解耦：
-
+![Architecture](./images/architecture.png)
 1. **訪問層 (Presentation Layer)**：利用 iOS 的 `SwiftUI` 建立高互動性介面，接收使用者指令（如上傳、搜尋）並視覺化呈現結果。
 2. **控制層 (Control Layer)**：透過 `Swift ViewModel` 處理表現邏輯，作為 UI 與底層服務之間的溝通橋樑。
 3. **服務層 (Service Layer)**：核心 AI 運算區。
@@ -81,3 +81,4 @@
 
 ## 📄 授權條款 (License)
 本專案採用 **MIT 授權條款 (MIT License)**。
+![LICENSE](./LICENSE)
