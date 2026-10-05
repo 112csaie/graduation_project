@@ -1,4 +1,4 @@
-# 自適應個人視覺記憶系統：語意檢索與自動化歸納架構
+# 智慧相簿管理系統
 ## Adaptive Personal Visual Memory System
 
 [![Platform](https://img.shields.io/badge/Platform-iOS%2017.0%2B-black.svg)](https://developer.apple.com/ios/)
