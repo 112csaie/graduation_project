@@ -12,7 +12,7 @@
 ![Model](https://img.shields.io/badge/Model-MobileCLIP--S2-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-長庚大學 人工智慧學系／資訊工程學系 專題研究
+長庚大學 資訊工程學系 / 人工智慧學系 專題研究
 
 </div>
 
