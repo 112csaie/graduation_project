@@ -4,6 +4,8 @@
 //
 
 import CoreImage
+import SwiftUI
+import UIKit
 
 extension CIImage {
 
@@ -36,5 +38,29 @@ extension CIImage {
         let scaleX = size.width / self.extent.width
         let scaleY = size.height / self.extent.height
         return self.transformed(by: CGAffineTransform(scaleX: scaleX, y: scaleY))
+    }
+}
+
+extension UIApplication {
+    func dismissKeyboard() {
+        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+}
+
+extension View {
+    func dismissKeyboardOnTap() -> some View {
+        background {
+            Color.black.opacity(0.001)
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    UIApplication.shared.dismissKeyboard()
+                }
+        }
+    }
+}
+
+extension String {
+    var displayNoteTitle: String {
+        (self as NSString).deletingPathExtension
     }
 }

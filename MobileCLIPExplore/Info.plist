@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>selfIE</string>
+	<key>AGENT_API_BASE_URL</key>
+	<string>http://172.31.235.64:8000</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.elaine.MobileCLIPExplore.photosync.processing</string>
+		<string>com.elaine.MobileCLIPExplore.abstractsearch.build</string>
+	</array>
+	<key>GIDClientID</key>
+	<string>YOUR_IOS_CLIENT_ID.apps.googleusercontent.com</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_photoai-agent._tcp</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>在同一個 Wi-Fi 中自動尋找 AI 助理伺服器（電腦上的後端），不需要手動輸入 IP。</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+	</array>
+</dict>
 </plist>

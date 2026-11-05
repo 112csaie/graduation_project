@@ -1,12 +1,3 @@
-//
-//  Utils.swift
-//  AudioBoloss
-//
-//  Created by Julien Chaumond on 07/01/2019.
-//  Copyright © 2019 Hugging Face. All rights reserved.
-//
-// See https://github.com/huggingface/swift-coreml-transformers
-
 import Foundation
 
 struct Utils {

@@ -1,0 +1,153 @@
+{
+  "_說明": "資料集 → {tag id: [資料集的類別名稱]}。類別名稱見各資料集的類別清單；改完重新執行即可。",
+  "food101": {
+    "sushi": [
+      "sushi",
+      "sashimi"
+    ],
+    "noodle_dish": [
+      "ramen",
+      "pho",
+      "pad_thai",
+      "spaghetti_bolognese",
+      "spaghetti_carbonara"
+    ],
+    "bento": [
+      "fried_rice",
+      "bibimbap",
+      "paella",
+      "risotto"
+    ],
+    "bbq": [
+      "steak",
+      "filet_mignon",
+      "baby_back_ribs",
+      "prime_rib",
+      "pork_chop"
+    ],
+    "pizza_burger": [
+      "pizza",
+      "hamburger"
+    ],
+    "fried_chicken": [
+      "chicken_wings",
+      "french_fries",
+      "onion_rings",
+      "fried_calamari",
+      "fish_and_chips"
+    ],
+    "cake": [
+      "cheesecake",
+      "chocolate_cake",
+      "carrot_cake",
+      "red_velvet_cake",
+      "strawberry_shortcake",
+      "cup_cakes"
+    ],
+    "ice_cream": [
+      "ice_cream",
+      "frozen_yogurt"
+    ],
+    "bakery": [
+      "donuts",
+      "garlic_bread",
+      "churros",
+      "beignets",
+      "macarons"
+    ]
+  },
+  "places365": {
+    "cafe": [
+      "coffee_shop"
+    ],
+    "beach": [
+      "beach"
+    ],
+    "mountain": [
+      "mountain",
+      "mountain_snowy"
+    ],
+    "forest": [
+      "forest/broadleaf",
+      "forest_path",
+      "rainforest"
+    ],
+    "lake_river": [
+      "lake/natural",
+      "river"
+    ],
+    "aquarium": [
+      "aquarium"
+    ],
+    "theme_park": [
+      "amusement_park"
+    ],
+    "arcade": [
+      "amusement_arcade"
+    ],
+    "museum": [
+      "museum/indoor",
+      "art_gallery",
+      "natural_history_museum"
+    ],
+    "movie": [
+      "movie_theater/indoor"
+    ],
+    "airport": [
+      "airport_terminal"
+    ],
+    "hotel_room": [
+      "hotel_room"
+    ],
+    "temple": [
+      "temple/asia",
+      "pagoda"
+    ],
+    "castle": [
+      "castle"
+    ],
+    "city_street": [
+      "street",
+      "downtown",
+      "crosswalk"
+    ],
+    "bakery": [
+      "bakery/shop"
+    ],
+    "groceries": [
+      "supermarket"
+    ],
+    "night_market": [
+      "bazaar/outdoor",
+      "market/outdoor"
+    ],
+    "sports_game": [
+      "stadium/baseball",
+      "baseball_field",
+      "stadium/soccer"
+    ],
+    "camping": [
+      "campsite"
+    ],
+    "skiing": [
+      "ski_slope",
+      "ski_resort"
+    ],
+    "workout": [
+      "gymnasium/indoor"
+    ],
+    "books": [
+      "library/indoor",
+      "bookstore"
+    ],
+    "clothing": [
+      "clothing_store"
+    ],
+    "home_daily": [
+      "living_room"
+    ],
+    "desk_setup": [
+      "home_office"
+    ]
+  }
+}

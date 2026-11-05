@@ -1,12 +1,3 @@
-//
-//  GPT2ByteEncoder.swift
-//  CoreMLBert
-//
-//  Created by Julien Chaumond on 18/07/2019.
-//  Copyright © 2019 Hugging Face. All rights reserved.
-//
-// See https://github.com/huggingface/swift-coreml-transformers
-
 import Foundation
 
 let byteEncoder: [UTF8.CodeUnit: String] = [

@@ -1,0 +1,44 @@
+# ===== macOS =====
+.DS_Store
+
+# ===== Xcode =====
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ===== Swift Package Manager =====
+.build/
+.swiftpm/
+
+# ===== Core ML 模型（檔案太大，請依 README 另行下載）=====
+MobileCLIPExplore/Models/*.mlpackage
+MobileCLIPExplore/Models/*.mlmodel
+MobileCLIPExplore/Models/*.mlmodelc
+MobileCLIPExplore/Models/.model-cache/
+.cache/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+.venv*/
+venv/
+
+# ===== 金鑰與環境設定（絕對不要上傳）=====
+.env
+.env.*
+!.env.example
+
+# ===== 開發過程的備份與暫存 =====
+_backup_*
+_eval_tmp/
+_sync_src.tar
+*.bak
+*.tar
+
+# ===== 工具設定 =====
+.claude/

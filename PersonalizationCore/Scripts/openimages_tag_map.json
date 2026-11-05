@@ -1,0 +1,486 @@
+{
+  "_說明": "tag id → Open Images 類別名稱（DisplayName）。空清單代表 Open Images 沒有，要自己收集照片。改完重新執行即可。",
+  "restaurant_meal": [
+    "Meal",
+    "Dish",
+    "Cuisine"
+  ],
+  "noodle_dish": [
+    "Noodle",
+    "Ramen",
+    "Noodle soup",
+    "Udon",
+    "Spaghetti"
+  ],
+  "bento": [
+    "Bento",
+    "Rice",
+    "Steamed rice",
+    "Fried rice"
+  ],
+  "sushi": [
+    "Sushi",
+    "Sashimi"
+  ],
+  "bbq": [
+    "Barbecue",
+    "Grilling",
+    "Steak",
+    "Barbecue grill"
+  ],
+  "pizza_burger": [
+    "Pizza",
+    "Hamburger"
+  ],
+  "fried_chicken": [
+    "Fried chicken",
+    "Fried food",
+    "Deep frying",
+    "French fries"
+  ],
+  "hotpot": [
+    "Hot pot"
+  ],
+  "menu": [
+    "Menu"
+  ],
+  "night_market": [
+    "Street food",
+    "Flea market"
+  ],
+  "cake": [
+    "Cake",
+    "Birthday cake",
+    "Cheesecake"
+  ],
+  "ice_cream": [
+    "Ice cream",
+    "Frozen dessert",
+    "Ice pop"
+  ],
+  "bakery": [
+    "Bakery",
+    "Bread",
+    "Pastry",
+    "Baked goods",
+    "Croissant"
+  ],
+  "coffee": [
+    "Coffee cup",
+    "Latte",
+    "Cappuccino",
+    "Iced coffee"
+  ],
+  "bubble_tea": [],
+  "cocktail": [
+    "Cocktail",
+    "Wine",
+    "Wine glass",
+    "Alcoholic beverage"
+  ],
+  "cafe": [
+    "Coffeehouse"
+  ],
+  "cat": [
+    "Cat"
+  ],
+  "dog": [
+    "Dog"
+  ],
+  "rabbit": [
+    "Rabbit",
+    "Domestic rabbit"
+  ],
+  "small_pet": [
+    "Hamster",
+    "Guinea pig",
+    "Rodent",
+    "Gerbil"
+  ],
+  "reptile": [
+    "Reptile",
+    "Lizard",
+    "Turtle",
+    "Tortoise",
+    "Snake",
+    "Frog"
+  ],
+  "bird": [
+    "Bird"
+  ],
+  "aquarium": [
+    "Aquarium",
+    "Fish"
+  ],
+  "zoo_animal": [
+    "Zoo"
+  ],
+  "farm_animal": [
+    "Livestock",
+    "Sheep",
+    "Cattle",
+    "Goat",
+    "Pig",
+    "Horse"
+  ],
+  "sunset": [
+    "Sunset",
+    "Sunrise"
+  ],
+  "starry_sky": [
+    "Star",
+    "Milky Way",
+    "Astronomical object"
+  ],
+  "beach": [
+    "Beach"
+  ],
+  "mountain": [
+    "Mountain",
+    "Mountain range"
+  ],
+  "forest": [
+    "Forest",
+    "Woodland"
+  ],
+  "lake_river": [
+    "Lake",
+    "River"
+  ],
+  "flowers": [
+    "Flower",
+    "Bouquet",
+    "Flower Arranging",
+    "Cherry blossom"
+  ],
+  "autumn_leaves": [
+    "Autumn",
+    "Maple leaf"
+  ],
+  "snow": [
+    "Snow"
+  ],
+  "portrait": [
+    "Portrait",
+    "Portrait photography",
+    "Selfie",
+    "Friendship",
+    "Social group"
+  ],
+  "baby": [
+    "Baby"
+  ],
+  "party": [
+    "Birthday",
+    "Birthday cake"
+  ],
+  "home_daily": [
+    "Living room",
+    "Room"
+  ],
+  "landmark": [
+    "Landmark",
+    "Tourist attraction"
+  ],
+  "temple": [
+    "Temple",
+    "Shrine",
+    "Shinto shrine"
+  ],
+  "castle": [
+    "Castle"
+  ],
+  "city_street": [
+    "Street",
+    "Road"
+  ],
+  "night_view": [
+    "Night",
+    "Cityscape",
+    "Skyline"
+  ],
+  "architecture": [
+    "Architecture",
+    "Building",
+    "Facade"
+  ],
+  "transport_vehicle": [
+    "Train",
+    "Airplane",
+    "Bus",
+    "Rolling stock"
+  ],
+  "airport": [
+    "Airport",
+    "Airport terminal"
+  ],
+  "hotel_room": [
+    "Hotel",
+    "Bedroom",
+    "Suite"
+  ],
+  "movie": [
+    "Movie theater",
+    "Movie palace"
+  ],
+  "poster": [
+    "Poster"
+  ],
+  "exhibition": [
+    "Exhibition",
+    "Science fair"
+  ],
+  "museum": [
+    "Museum",
+    "Art gallery",
+    "Art exhibition"
+  ],
+  "theater_show": [
+    "Theatre",
+    "Musical theatre",
+    "Performing arts"
+  ],
+  "books": [
+    "Book",
+    "Bookcase",
+    "Library"
+  ],
+  "concert": [
+    "Concert",
+    "Rock concert",
+    "Music venue",
+    "Nightclub"
+  ],
+  "instrument": [
+    "Musical instrument",
+    "Guitar",
+    "Piano"
+  ],
+  "cheering_goods": [],
+  "tv_screen": [],
+  "manga": [
+    "Comics",
+    "Manga",
+    "Comic book"
+  ],
+  "anime_art": [
+    "Anime",
+    "Cartoon"
+  ],
+  "video_game": [
+    "Video game",
+    "PC game"
+  ],
+  "board_game": [
+    "Board game",
+    "Tabletop game"
+  ],
+  "arcade": [
+    "Arcade game"
+  ],
+  "cosplay": [
+    "Cosplay"
+  ],
+  "comic_convention": [
+    "Convention"
+  ],
+  "merch": [
+    "Badge",
+    "Pin",
+    "Keychain"
+  ],
+  "figure": [
+    "Figurine",
+    "Action figure"
+  ],
+  "stuffed_toy": [
+    "Stuffed toy",
+    "Teddy bear",
+    "Plush",
+    "Doll"
+  ],
+  "model_kit": [
+    "Scale model",
+    "Model"
+  ],
+  "lego": [
+    "Lego"
+  ],
+  "photo_sticker": [],
+  "stationery": [
+    "Stationery",
+    "Pen",
+    "Notebook"
+  ],
+  "journal": [],
+  "handcraft": [
+    "Craft"
+  ],
+  "painting": [
+    "Painting",
+    "Drawing"
+  ],
+  "gadgets": [
+    "Laptop",
+    "Mobile phone",
+    "Gadget",
+    "Tablet computer"
+  ],
+  "camera_gear": [
+    "Camera",
+    "Camera lens",
+    "Digital camera"
+  ],
+  "theme_park": [
+    "Amusement park",
+    "Roller coaster",
+    "Amusement ride"
+  ],
+  "fireworks": [
+    "Fireworks"
+  ],
+  "lantern_festival": [
+    "Lantern",
+    "Festival"
+  ],
+  "christmas": [
+    "Christmas",
+    "Christmas tree",
+    "Christmas decoration"
+  ],
+  "workout": [
+    "Physical fitness",
+    "Exercise",
+    "Gym"
+  ],
+  "weight_training": [
+    "Weight training",
+    "Dumbbell",
+    "Barbell"
+  ],
+  "cardio_machine": [
+    "Treadmill",
+    "Stationary bicycle",
+    "Exercise machine"
+  ],
+  "running": [
+    "Running",
+    "Marathon",
+    "Jogging"
+  ],
+  "ball_sports": [
+    "Badminton",
+    "Ball game",
+    "Basketball hoop",
+    "Volleyball (ball)",
+    "Beach volleyball"
+  ],
+  "swimming": [
+    "Swimming",
+    "Swimming pool"
+  ],
+  "cycling": [
+    "Cycling",
+    "Bicycle"
+  ],
+  "sports_game": [
+    "Stadium",
+    "Baseball park",
+    "Baseball field"
+  ],
+  "sports_gear": [
+    "Sports equipment",
+    "Racket"
+  ],
+  "hiking": [
+    "Hiking"
+  ],
+  "camping": [
+    "Camping",
+    "Tent"
+  ],
+  "skiing": [
+    "Skiing",
+    "Ski"
+  ],
+  "diving": [
+    "Snorkeling",
+    "Underwater diving",
+    "Scuba diving"
+  ],
+  "outfit": [
+    "Fashion"
+  ],
+  "shoes": [
+    "Footwear",
+    "Shoe",
+    "Sneakers"
+  ],
+  "bags": [
+    "Handbag",
+    "Bag"
+  ],
+  "accessories": [
+    "Jewellery",
+    "Fashion accessory",
+    "Necklace"
+  ],
+  "cosmetics": [
+    "Cosmetics",
+    "Lipstick"
+  ],
+  "nails": [
+    "Manicure",
+    "Nail polish",
+    "Nail care"
+  ],
+  "hairstyle": [
+    "Hairstyle"
+  ],
+  "document": [
+    "Document",
+    "Paper"
+  ],
+  "handwritten_notes": [
+    "Handwriting",
+    "Whiteboard"
+  ],
+  "slides": [
+    "Presentation"
+  ],
+  "textbook": [],
+  "id_card": [
+    "Identity document",
+    "Debit card"
+  ],
+  "chat_screenshot": [],
+  "desk_setup": [
+    "Desk",
+    "Computer desk"
+  ],
+  "receipt": [
+    "Receipt"
+  ],
+  "product_photo": [],
+  "clothing": [
+    "Clothing",
+    "Boutique",
+    "Clothes hanger"
+  ],
+  "groceries": [
+    "Grocery store",
+    "Supermarket",
+    "Produce"
+  ],
+  "furniture": [
+    "Furniture"
+  ],
+  "houseplants": [
+    "Houseplant",
+    "Flowerpot"
+  ],
+  "boarding_pass": [
+    "Boarding pass",
+    "Airline ticket"
+  ]
+}

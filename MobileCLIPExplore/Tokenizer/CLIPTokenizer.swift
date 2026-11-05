@@ -1,14 +1,3 @@
-//
-//  CLIPTokenizer.swift
-//  CoreMLBert
-//
-//  Created by Matthew Waller on 1/31/23.
-//  Copyright © 2023 Hugging Face. All rights reserved.
-//
-//  Modified by Hugues Thomas on 5/14/24.
-//
-// See https://github.com/huggingface/swift-coreml-transformers/pull/30
-
 import Foundation
 
 struct BytePair: Hashable {
@@ -55,11 +44,12 @@ class CLIPTokenizer {
     private let decoder: [Int: String]
     let contextLength = 77
 
-    init() {
+    init(resourceDirectory: URL? = nil) {
+        let resourceBaseURL = resourceDirectory ?? Bundle.main.resourceURL!
+        let mergesURL = resourceBaseURL.appendingPathComponent("clip-merges.txt")
+        let vocabURL = resourceBaseURL.appendingPathComponent("clip-vocab.json")
 
-        let url = Bundle.main.url(forResource: "clip-merges", withExtension: "txt")!
-
-        let bpeMergesTxt = try! String(contentsOf: url)
+        let bpeMergesTxt = try! String(contentsOf: mergesURL, encoding: .utf8)
         let arr = bpeMergesTxt.split(separator: "\n").map { String($0) }
         var bpeRanks: [BytePair: Int] = [:]
         for i in 1 ..< arr.count {
@@ -70,8 +60,7 @@ class CLIPTokenizer {
         self.bpeRanks = bpeRanks
 
         self.encoder = {
-            let url = Bundle.main.url(forResource: "clip-vocab", withExtension: "json")!
-            let json = try! Data(contentsOf: url)
+            let json = try! Data(contentsOf: vocabURL)
             let decoder = JSONDecoder()
             let vocab = try! decoder.decode([String: Int].self, from: json)
             return vocab
@@ -192,7 +181,9 @@ class CLIPTokenizer {
     }
 
     func encode_full(text: String) -> [Int] {
-        let tokens = encode(text: text)
+        // 模型最多 77 個位置（含開頭與結尾記號）。中文每個字會被拆成 2～3 個位元組記號，
+        // 約 25 個中文字就會超過，原本會陣列越界閃退；超過的部分截掉。
+        let tokens = Array(encode(text: text).prefix(contextLength - 2))
 
         // Create the full input tokens as a multiarray of shape 1 x contextLength
         var fullTokens = Array(repeating: 0, count: contextLength)

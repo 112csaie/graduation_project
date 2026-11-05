@@ -1,0 +1,151 @@
+{
+  "_說明": "prompt_tuning.py 用的候選提示詞（英文，App 會自動加上 a photo of）。prompts：照片是這個分類時會像的畫面；confusers：容易被誤認、要排除的畫面。目前在用的提示詞會自動一起比較，不用再寫一次。可以自己加、刪，改完重新執行就好。",
+  "coffee": {
+    "prompts": ["a cup of hot coffee on a cafe table", "an iced latte in a clear plastic cup", "latte art in a ceramic cup seen from above", "a takeaway coffee cup with a lid held in a hand", "a coffee cup next to a dessert plate"],
+    "confusers": ["a cup of milk tea with tapioca pearls", "a glass of beer", "a bowl of soup"]
+  },
+  "small_pet": {
+    "prompts": ["a hamster held in a hand", "a hamster in a cage with bedding", "a guinea pig eating vegetables", "a small fluffy rodent pet close up"],
+    "confusers": ["a hamster plush toy", "a cartoon hamster sticker"]
+  },
+  "starry_sky": {
+    "prompts": ["a night sky full of stars", "the milky way over a dark landscape", "stars in the sky photographed at night with a phone"],
+    "confusers": ["a dark blurry photo taken at night", "city lights at night", "a sky with string lights"]
+  },
+  "snow": {
+    "prompts": ["a snowy street with snow piled on the sides", "snow covered mountains and trees", "people walking in snow in winter", "snowflakes falling on a city street"],
+    "confusers": ["a white sandy beach", "white clouds in the sky", "shaved ice dessert"]
+  },
+  "portrait": {
+    "prompts": ["a close-up photo of a person smiling at the camera", "two friends posing together for a photo", "a group of people posing for a photo at a restaurant", "a person posing in front of a landmark", "a photo of a person taken by a friend"],
+    "confusers": ["a celebrity photo printed on merchandise", "a person on a TV screen", "a crowd of strangers in the background of a street"]
+  },
+  "home_daily": {
+    "prompts": ["a messy bedroom with a bed and personal items", "a living room with a sofa and a TV at home", "a home kitchen", "a small apartment room"],
+    "confusers": ["a hotel room with a neatly made bed", "a furniture showroom", "a cafe interior"]
+  },
+  "landmark": {
+    "prompts": ["a famous tower photographed by a tourist", "a historic monument with tourists around", "a well-known tourist attraction in a city", "a famous temple or castle visited by tourists"],
+    "confusers": ["an ordinary office building", "a residential street", "a shopping mall interior"]
+  },
+  "city_street": {
+    "prompts": ["a busy city street with shops and signs", "a street in a city with cars and pedestrians", "a narrow alley with shop signs in Asia", "a crosswalk in a city center"],
+    "confusers": ["an empty country road", "a highway", "a city skyline at night"]
+  },
+  "night_view": {
+    "prompts": ["a city skyline lit up at night", "a night view of city lights from a high place", "a street lit by neon signs at night", "a bridge lit up at night over a river"],
+    "confusers": ["a dark room", "a starry sky", "fireworks in the night sky"]
+  },
+  "architecture": {
+    "prompts": ["the facade of a historic building", "a modern glass skyscraper", "an interesting building photographed from the street", "traditional architecture with a tiled roof"],
+    "confusers": ["an interior of a room", "a shop sign close up", "a street with cars"]
+  },
+  "poster": {
+    "prompts": ["a movie poster on a wall", "a large printed poster in a cinema lobby", "an event poster on a bulletin board", "a concert poster on a wall"],
+    "confusers": ["a phone screenshot", "a printed document page", "a painting in a museum", "a menu board"]
+  },
+  "theater_show": {
+    "prompts": ["actors performing a play on a theater stage", "a musical performance on a large theater stage with costumes", "a view of the theater stage from the audience seats", "a curtain call on a theater stage"],
+    "confusers": ["a concert stage with a band", "a school event in a gymnasium", "a cinema screen"]
+  },
+  "concert": {
+    "prompts": ["a crowd in front of a big outdoor music festival stage", "an outdoor music festival with flags and tents", "people watching a band at an outdoor festival during the day"],
+    "confusers": ["an indoor concert hall", "a street market with tents", "a sports stadium"]
+  },
+  "instrument": {
+    "prompts": ["a person playing the guitar", "a person playing the piano", "a violin and bow", "a drum set", "an electric guitar on a stand"],
+    "confusers": ["a guitar toy keychain", "a music album", "a stage with lights and no performers"]
+  },
+  "cheering_goods": {
+    "prompts": ["an idol light stick glowing in the dark", "fans holding light sticks at a concert", "a cheering towel slogan with a name", "a light stick on a table"],
+    "confusers": ["a flashlight", "a glow stick at a party", "a microphone"]
+  },
+  "tv_screen": {
+    "prompts": ["a photo of a TV screen showing a performance", "a photo of a laptop screen playing a video", "a phone photo of a TV showing a music show", "a TV screen with visible pixels photographed with a phone"],
+    "confusers": ["a phone screenshot", "a cinema screen", "a TV turned off in a living room"]
+  },
+  "anime_art": {
+    "prompts": ["a screenshot of an anime scene", "an anime style illustration of a character", "a fan art drawing of an anime character", "a still frame from an animated series"],
+    "confusers": ["a manga page in black and white", "an anime figure", "an acrylic standee of an anime character"]
+  },
+  "video_game": {
+    "prompts": ["a screenshot of a mobile game", "a video game on a TV screen", "a person playing a game console", "a gacha game result screen"],
+    "confusers": ["a phone app screenshot", "an anime illustration", "an arcade claw machine"]
+  },
+  "comic_convention": {
+    "prompts": ["a crowded anime convention hall with booths", "cosplayers at a comic convention", "booths selling fan merchandise at a convention", "a doujinshi booth at a convention"],
+    "confusers": ["a shopping mall", "a trade show for electronics", "a supermarket"]
+  },
+  "model_kit": {
+    "prompts": ["an assembled gundam model", "a plastic model kit with parts on runners", "a robot model on a shelf", "a scale model car"],
+    "confusers": ["an anime figure", "a lego set", "a toy car"]
+  },
+  "photo_sticker": {
+    "prompts": ["a sheet of photo booth stickers with several small photos and cute doodles", "a strip of photo booth pictures", "a korean photo booth print of friends", "a photo booth sticker with decorations held in a hand"],
+    "confusers": ["a single printed photo card of a celebrity", "a sheet of cartoon character stickers", "a postcard"]
+  },
+  "journal": {
+    "prompts": ["a decorated notebook page with stickers, washi tape and handwriting", "an open planner with handwritten notes and colorful decorations", "a scrapbook page with photos and stickers"],
+    "confusers": ["a school notebook with notes", "a printed document", "a binder of photo cards"]
+  },
+  "painting": {
+    "prompts": ["a painting on canvas", "a watercolor painting on paper", "a person painting with a brush", "a framed painting on a wall"],
+    "confusers": ["a printed poster", "a photograph in a frame", "an anime illustration on a screen"]
+  },
+  "gadgets": {
+    "prompts": ["a laptop on a desk", "a new smartphone being unboxed", "wireless earbuds in a charging case", "a tablet with a stylus", "a mechanical keyboard"],
+    "confusers": ["a phone screenshot", "a person using a phone in the background", "a camera with a lens"]
+  },
+  "workout": {
+    "prompts": ["inside a gym with fitness equipment", "a person working out at a gym", "a mirror selfie at the gym", "a fitness class in a studio"],
+    "confusers": ["a school gymnasium during an event", "a basketball court", "a yoga mat at home"]
+  },
+  "cardio_machine": {
+    "prompts": ["treadmills in a gym", "an exercise bike in a gym", "a treadmill display showing distance and time", "an elliptical machine"],
+    "confusers": ["weight machines in a gym", "a bicycle on a street"]
+  },
+  "ball_sports": {
+    "prompts": ["people playing basketball on a court", "playing badminton in a sports hall", "a volleyball game", "playing table tennis", "a soccer game on a field"],
+    "confusers": ["watching a baseball game from the stands", "a school event in a gymnasium", "sports equipment on the floor"]
+  },
+  "swimming": {
+    "prompts": ["people swimming in a pool", "an indoor swimming pool with lanes", "a person swimming in the sea", "kids playing in a swimming pool"],
+    "confusers": ["a hotel pool with lounge chairs and no swimmers", "a beach with no people in the water", "a bathtub"]
+  },
+  "cycling": {
+    "prompts": ["a cyclist riding a bicycle", "a person riding a bike, seen up close", "riding a rental bike along a river path", "a view from a bicycle handlebar while riding"],
+    "confusers": ["bicycles parked on a street", "an empty road", "a person riding a motor scooter", "a city street with cars"]
+  },
+  "sports_gear": {
+    "prompts": ["a badminton racket and shuttlecocks", "a basketball on the floor", "running shoes and sports gear laid out", "a yoga mat and dumbbells"],
+    "confusers": ["sneakers in a shoe store", "a gym with machines"]
+  },
+  "camping": {
+    "prompts": ["a camping tent outdoors", "a campsite with tents and chairs", "a campfire at a campsite", "glamping tents in the mountains"],
+    "confusers": ["a market with tents", "a festival with tents", "a picnic in a park"]
+  },
+  "outfit": {
+    "prompts": ["a full-body mirror photo of a person's outfit", "a person showing a fashion outfit on the street", "an outfit of the day photo", "clothes laid out flat showing an outfit"],
+    "confusers": ["clothes on hangers in a store", "a person in the background of a street"]
+  },
+  "shoes": {
+    "prompts": ["a pair of sneakers", "looking down at your own shoes", "new shoes in a shoe box", "shoes on display in a store"],
+    "confusers": ["feet on a beach", "a floor with no shoes"]
+  },
+  "accessories": {
+    "prompts": ["a necklace and earrings on display", "a ring on a finger", "a bracelet on a wrist", "jewelry in a store display case", "hair clips and accessories"],
+    "confusers": ["a nail manicure", "a watch face close up", "keychains"]
+  },
+  "product_photo": {
+    "prompts": ["products displayed on a store shelf", "an unboxed product on a table", "a product held in a hand in a store", "a package of a product"],
+    "confusers": ["groceries in a supermarket", "clothes on hangers", "merchandise of an idol"]
+  },
+  "furniture": {
+    "prompts": ["a sofa in a furniture store", "a wooden chair and table", "a bed frame in a showroom", "a bookshelf"],
+    "confusers": ["a cafe interior with tables", "a restaurant with chairs", "a classroom with desks"]
+  },
+  "houseplants": {
+    "prompts": ["potted plants indoors", "a houseplant on a windowsill", "a small succulent in a pot", "plants in a plant shop"],
+    "confusers": ["a garden outdoors", "a forest", "a bouquet of flowers"]
+  }
+}
