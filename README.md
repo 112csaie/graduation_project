@@ -405,7 +405,6 @@ MODEL=<模型名稱>
 TAVILY_API_KEY=<你的金鑰>
 ```
 
-> ⚠️ 請勿將 `.env` 或任何 API 金鑰提交到 GitHub。
 
 接著在 `Info.plist` 的 `AGENT_API_BASE_URL` 填入後端網址（例如 `http://<電腦的區網 IP>:8000`），或讓 App 透過區網 Bonjour 自動尋找。
 
