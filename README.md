@@ -497,6 +497,7 @@ python3 PersonalizationCore/Scripts/kpi_timing.py 紀錄檔.txt   # 不給檔名
 | 115上第三次專題報告影片 | 第三次報告 |
 | 設計規格書 | 系統設計規格 |
 | 測試計畫書 | 測試計畫與 KPI |
+| 系統測試成果報告 | 測試成果 |
 
 ---
 
